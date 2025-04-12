@@ -1,0 +1,46 @@
+Exercícios de Python para  a criação das verificações nos comandos if, elif e else:
+Exercício 1: Verificador de Números Pares e Ímpares
+Descrição: Crie um programa que solicite um número inteiro ao usuário.
+Se o número for divisível por 2 (ou seja, o resto da divisão por 2 for igual a 0), exiba a mensagem "O número é par".
+Caso contrário, exiba a mensagem "O número é ímpar".
+
+'Exercício 2 : Maior número
+ Descrição: Faça um programa que recebe dois números e imprime qual o maior.
+caso sejam iguais mostre uma mensagem "São iguais"
+Exercício 3:  qual a Pessoa mais velha e quem pode dirigir
+Descrição: Faça um Programa que recebe um nome de duas pessoas e suas idades e diga qual a mais velha e qual pode dirigir veículos automotor.
+
+Exercício 4: Classificador de Idade
+Descrição: Crie um programa que solicite a idade de uma pessoa (um número inteiro).
+Se a idade for menor que 12, exiba "Criança".
+Se a idade estiver entre 12 e 17 (inclusive), exiba "Adolescente".
+Se a idade estiver entre 18 e 59 (inclusive), exiba "Adulto".
+Se a idade for 60 ou mais, exiba "Idoso".
+Exercício 5: Calculadora Simples
+Descrição: Crie um programa que solicite dois números (reais) e uma operação matemática (+, -, *, /).
+Se a operação for "+", exiba a soma dos números.
+Se for "-", exiba a diferença.
+Se for "*", exiba o produto.
+Se for "/", verifique se o segundo número é diferente de zero. Se for, exiba o resultado da divisão; caso contrário, exiba "Erro: divisão por zero".
+Se a operação for diferente das anteriores mostre "Operação invalida"
+Exercício 6: Verificador de Números Positivos, Negativos e Zeros
+Descrição: Crie um programa que solicite um número real ao usuário.
+Se o número for maior que 0, exiba "Positivo".
+Se for menor que 0, exiba "Negativo".
+Se for igual a 0, exiba "Zero".
+Exercício 7: Cálculo do IMC
+Descrição: Crie um programa que solicite o peso (em kg) e a altura (em metros) de uma pessoa.
+Calcule o IMC (IMC = peso / altura²).
+Se o IMC for menor que 18.5, exiba "Abaixo do peso".
+Se o IMC estiver entre 18.5 e 24.9 (inclusive), exiba "Peso normal".
+Se o IMC estiver entre 25 e 29.9 (inclusive), exiba "Sobrepeso".
+Se o IMC for 30 ou maior, exiba "Obesidade".
+Exercício 8: Verificador de Ano Bissexto
+Descrição: Crie um programa que solicite um ano (número inteiro).
+Um ano é bissexto se for divisível por 4, exceto anos divisíveis por 100 que não são divisíveis por 400.
+Se o ano for bissexto, exiba "Ano bissexto"; caso contrário, exiba "Ano não bissexto".
+Exercício 9: Conversor de Temperatura
+Descrição: Crie um programa que solicite uma temperatura e a escala original (Celsius ou Fahrenheit).
+Se a escala for "C", converta para Fahrenheit (F = C * 9/5 + 32).
+Se a escala for "F", converta para Celsius (C = (F - 32) * 5/9).
+Caso a escala seja diferente de "F" ou "C" mostre "Escala invalida".
