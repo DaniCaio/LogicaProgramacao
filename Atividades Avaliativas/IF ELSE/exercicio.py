@@ -67,3 +67,21 @@
 #     print("Idoso")
 
 
+# Exercício 5: Calculadora Simples
+# Descrição: Crie um programa que solicite dois números (reais) e uma operação matemática (+, -, *, /).
+# Se a operação for "+", exiba a soma dos números.
+# Se for "-", exiba a diferença.
+# Se for "*", exiba o produto.
+# Se for "/", verifique se o segundo número é diferente de zero. Se for, exiba o resultado da divisão; caso contrário, exiba "Erro: divisão por zero".
+# Se a operação for diferente das anteriores mostre "Operação invalida"
+
+numero1 = int (input("Digite um numero"))
+operador = input (" +, -, *, /")
+numero2 = int (input("Digite um numero")) 
+
+# vai se fude tbm
+
+if operador == "-":
+    print("numero1 - numero2 = ") 
+
+
