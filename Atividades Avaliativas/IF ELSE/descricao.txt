@@ -23,11 +23,14 @@ Se for "-", exiba a diferença.
 Se for "*", exiba o produto.
 Se for "/", verifique se o segundo número é diferente de zero. Se for, exiba o resultado da divisão; caso contrário, exiba "Erro: divisão por zero".
 Se a operação for diferente das anteriores mostre "Operação invalida"
+
+
 Exercício 6: Verificador de Números Positivos, Negativos e Zeros
 Descrição: Crie um programa que solicite um número real ao usuário.
 Se o número for maior que 0, exiba "Positivo".
 Se for menor que 0, exiba "Negativo".
 Se for igual a 0, exiba "Zero".
+
 Exercício 7: Cálculo do IMC
 Descrição: Crie um programa que solicite o peso (em kg) e a altura (em metros) de uma pessoa.
 Calcule o IMC (IMC = peso / altura²).
@@ -35,6 +38,7 @@ Se o IMC for menor que 18.5, exiba "Abaixo do peso".
 Se o IMC estiver entre 18.5 e 24.9 (inclusive), exiba "Peso normal".
 Se o IMC estiver entre 25 e 29.9 (inclusive), exiba "Sobrepeso".
 Se o IMC for 30 ou maior, exiba "Obesidade".
+
 Exercício 8: Verificador de Ano Bissexto
 Descrição: Crie um programa que solicite um ano (número inteiro).
 Um ano é bissexto se for divisível por 4, exceto anos divisíveis por 100 que não são divisíveis por 400.

@@ -75,13 +75,126 @@
 # Se for "/", verifique se o segundo número é diferente de zero. Se for, exiba o resultado da divisão; caso contrário, exiba "Erro: divisão por zero".
 # Se a operação for diferente das anteriores mostre "Operação invalida"
 
-numero1 = int (input("Digite um numero"))
-operador = input (" +, -, *, /")
-numero2 = int (input("Digite um numero")) 
+# print("\n selecione a sua operação: ")
+# print("(-) - subtração")
+# print("(+) - soma")
+# print("(/) - divisão")
+# print("(*) - multiplicação")
 
-# vai se fude tbm
+# operador = input("Digite o operador: ")
 
-if operador == "-":
-    print("numero1 - numero2 = ") 
+# if operador == "-":
+#     numero1 = float (input("Digite o primeiro número: "))
+#     numero2 = float (input("Digite o segundo número: ")) 
 
+#     resultado = numero1 - numero2
+#     print(resultado)
+# elif operador == "+":
+#     numero1 = float (input("Digite o primeiro número: "))
+#     numero2 = float (input("Digite o segundo número: ")) 
+
+#     resultado = numero1 + numero2
+#     print(resultado)
+    
+# elif operador == "/":
+#     numero1 = float (input("Digite o primeiro número: "))
+#     numero2 = float (input("Digite o segundo número: ")) 
+    
+#     if numero2 == 0:
+#         print("Erro: divisão por zero.")
+
+#     else:
+#         resultado = numero1 / numero2
+#         print(resultado)
+
+# elif operador == "*":
+#     numero1 = float (input("Digite o primeiro número: "))
+#     numero2 = float (input("Digite o segundo número: ")) 
+
+#     resultado = numero1 * numero2
+#     print(resultado)
+
+# else:
+#     print("A opção escolhida é invalida.")
+
+# xercício 6: Verificador de Números Positivos, Negativos e Zeros
+# Descrição: Crie um programa que solicite um número real ao usuário.
+# Se o número for maior que 0, exiba "Positivo".
+# Se for menor que 0, exiba "Negativo".
+# Se for igual a 0, exiba "Zero".
+
+# numero = input ("Digite um número real")
+
+# if numero > 0:
+#     print("Positivo")
+
+# elif numero < 0:
+#     print("Negativo")
+
+# else:
+#     print("Zero")
+
+# Exercício 7: Cálculo do IMC
+# Descrição: Crie um programa que solicite o peso (em kg) e a altura (em metros) de uma pessoa.
+# Calcule o IMC (IMC = peso / altura²).
+# Se o IMC for menor que 18.5, exiba "Abaixo do peso".
+# Se o IMC estiver entre 18.5 e 24.9 (inclusive), exiba "Peso normal".
+# Se o IMC estiver entre 25 e 29.9 (inclusive), exiba "Sobrepeso".
+# Se o IMC for 30 ou maior, exiba "Obesidade".
+
+# peso = float (input ("Digite seu peso em KG "))
+# altura = float (input ("Digite sua altura em metros "))
+
+# IMC = peso / (altura * 2) 
+
+# if IMC < 18.5:
+#     print("Abaixo do peso")
+
+# elif IMC >= 18.5 and ( IMC <= 24.9):
+#     print("Peso normal")
+
+# elif IMC >= 25 and ( IMC <=29.9):
+#     print("Sobrepeso")
+
+# else:
+#     print("Obesidade")
+
+# Exercício 8: Verificador de Ano Bissexto
+# Descrição: Crie um programa que solicite um ano (número inteiro).
+# Um ano é bissexto se for divisível por 4, exceto anos divisíveis por 100 que não são divisíveis por 400.
+# Se o ano for bissexto, exiba "Ano bissexto"; caso contrário, exiba "Ano não bissexto".
+
+# ano = int (input("Digite um ano: "))
+
+# if (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0):
+#     print("bissexto")
+
+# else:
+#     print("ano não bissexto")
+
+# Exercício 9: Conversor de Temperatura
+# Descrição: Crie um programa que solicite uma temperatura e a escala original (Celsius ou Fahrenheit).
+# Se a escala for "C", converta para Fahrenheit (F = C * 9/5 + 32).
+# Se a escala for "F", converta para Celsius (C = (F - 32) * 5/9).
+# Caso a escala seja diferente de "F" ou "C" mostre "Escala invalida".
+    
+# temperatura = float (input("Digite uma temperatura: "))
+
+# print("\n Selecione a escala: ")
+# print("C - Celsius")
+# print("F - Fahrenheit")
+
+# escala = input ("Digite a letra correspondente a escala: ")
+
+# if escala == "C":
+#     fahrenheit = temperatura * 9/5 + 32
+#     print(f"Sua temperatura em fahrenheit é {fahrenheit}")
+
+# elif escala == "F":
+#     celsius = (temperatura - 32) * 5/9
+#     print(f"Sua temperatura em celsius é {celsius}")
+
+# else:
+#     print("Escala invalida")
+    
 
