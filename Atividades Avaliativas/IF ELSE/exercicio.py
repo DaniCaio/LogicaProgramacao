@@ -145,19 +145,19 @@
 # peso = float (input ("Digite seu peso em KG "))
 # altura = float (input ("Digite sua altura em metros "))
 
-# IMC = peso / (altura * 2) 
+# IMC = peso / (altura ** 2) 
 
 # if IMC < 18.5:
-#     print("Abaixo do peso")
+#     print(f"Abaixo do peso {IMC}")
 
 # elif IMC >= 18.5 and ( IMC <= 24.9):
-#     print("Peso normal")
+#     print(F"Peso normal {IMC}")
 
 # elif IMC >= 25 and ( IMC <=29.9):
-#     print("Sobrepeso")
+#     print(F"Sobrepeso {IMC}")
 
 # else:
-#     print("Obesidade")
+#     print(F"Obesidade {IMC}")
 
 # Exercício 8: Verificador de Ano Bissexto
 # Descrição: Crie um programa que solicite um ano (número inteiro).
