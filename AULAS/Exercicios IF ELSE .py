@@ -4,3 +4,4 @@ letra = input ("Digite uma letra: ")
 
 if len(letra) == 1 and letra.isalpha():
     print("Vogal")
+sfs
